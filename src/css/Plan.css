@@ -1,0 +1,125 @@
+.plan-container {
+  text-align: center;
+  padding: 70px 8% 0px;
+}
+
+.plan-container .h2 {
+  margin-bottom: 20px;
+}
+
+.plan-container .plan {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+
+.plan-container .plan .plan-box {
+  transition: 0.5s ease-in-out;
+  padding: 30px 0px;
+  background-color: #040647;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plan-container .plan .plan-box .icon {
+  font-size: 30px;
+  color: #ff7200;
+}
+
+.plan-container .plan .plan-box a {
+  border: 2px solid #ff7200;
+  color: #ff7200;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 114, 0, 0.5);
+}
+
+.plan-container .plan .plan-box .plan-type {
+  background: linear-gradient(to right, #f48b36, #ff7200);
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.plan-container .plan .plan-box .plan-type p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.plan-container .plan .plan-box span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-container .question {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  margin-top: 100px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.plan-container .question .first {
+  padding: 50px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 5px solid var(--primary);
+}
+
+.plan-container .question .first a {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.plan-container .question .second {
+  flex: 2;
+  border-bottom: 5px solid var(--secondary);
+  background-color: var(--primary);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .plan-container .plan {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .plan-container {
+    text-align: center;
+    padding: 70px 4% 0px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .plan-container .question {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-container .question .first {
+    border-top-right-radius: 50px;
+  }
+  .plan-container .question .second {
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .plan-container .plan {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

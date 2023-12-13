@@ -1,0 +1,14 @@
+.background-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/crypbgimg.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding: 10px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

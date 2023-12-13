@@ -1,0 +1,33 @@
+.why-divs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.why-divs div {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #040647;
+  color: rgba(256, 256, 256, 0.8);
+}
+.why-divs div .icon {
+  font-size: 30px;
+}
+
+.why-divs div h5 {
+  color: #ff7200;
+}
+
+@media screen and (max-width: 900px) {
+  .why-divs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .why-divs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

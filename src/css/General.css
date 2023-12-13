@@ -1,0 +1,247 @@
+.general-container .body {
+  padding: 100px 8% 50px;
+  text-align: justify;
+}
+
+.general-container br {
+  display: block;
+}
+
+.general-container .body .content {
+  display: flex;
+  align-items: center;
+}
+
+.general-container .body .content div {
+  flex: 1;
+}
+
+.general-container .body .content form {
+  flex: 1;
+}
+
+.general-container .body .content form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.general-container .body .content form input {
+  width: 47%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--primary);
+}
+
+.general-container .body .content form textarea {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--primary);
+}
+
+.general-container .body .content form button {
+  margin-top: 20px;
+  padding: 13px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.general-container .body .content form input:focus,
+.general-container .body .content form textarea:focus {
+  background-color: #eee;
+  box-shadow: 0px 0px 10px rgba(255, 114, 0, 0.3);
+}
+
+.general-container .body .content form button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.general-container .body .signin-form {
+  text-align: center;
+}
+
+.general-container .body .signin-form div {
+  margin-top: 25px;
+}
+
+.general-container .body .signin-form div input {
+  outline: none;
+  border: 1px solid var(--primary);
+  padding: 10px;
+  width: 40%;
+}
+
+.general-container .body .signin-form div textarea {
+  outline: none;
+  border: 1px solid var(--primary);
+  padding: 10px;
+  width: 40%;
+}
+
+.general-container .body .signin-form div input:focus {
+  background-color: #eee;
+  box-shadow: 0px 0px 10px rgba(255, 114, 0, 0.3);
+}
+
+.general-container .body .signin-form button {
+  margin-top: 20px;
+  padding: 13px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  width: 40%;
+  transition: 0.5s ease-in-out;
+}
+
+.general-container .body .signin-form button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.general-container .body .signup-form {
+  text-align: center;
+}
+
+.general-container .body .signup-form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.general-container .body .signup-form div input {
+  outline: none;
+  border: 1px solid var(--primary);
+  padding: 10px;
+  width: 100%;
+}
+
+.general-container .body .signup-form div input:first-of-type {
+  margin-right: 20px;
+}
+
+.general-container .body .signup-form div input:focus {
+  box-shadow: 0px 0px 10px rgba(255, 114, 0, 0.3);
+}
+
+.general-container .body .signup-form button {
+  margin-top: 20px;
+  padding: 13px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  width: 70%;
+  transition: 0.5s ease-in-out;
+}
+
+.general-container .body .signup-form button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 1000px) {
+  .general-container .body {
+    padding: 50px 4% 0px;
+  }
+  .general-container .body .content {
+    display: block;
+  }
+  .general-container .body .content form {
+    margin-top: 60px;
+  }
+  .general-container .body .signin-form div input {
+    width: 80%;
+  }
+  .general-container .body .signin-form div textarea {
+    width: 80%;
+  }
+  .general-container .body .signin-form button {
+    width: 80%;
+  }
+  .general-container .body .signup-form div {
+    width: 100%;
+  }
+  .general-container .body .signup-form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .general-container .body .content form div {
+    display: block;
+  }
+  .general-container .body .content form input {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .general-container .body .signin-form div input {
+    width: 100%;
+  }
+  .general-container .body .signin-form button {
+    width: 100%;
+  }
+  .general-container .body .signup-form div {
+    display: block;
+  }
+  .general-container .body .signup-form div input:first-of-type {
+    margin-right: 0px;
+  }
+  .general-container .body .signup-form div input:last-of-type {
+    display: block;
+    margin-top: 25px;
+  }
+}
+
+#full-screen {
+  background: linear-gradient(to right, #f48b36, #ff7200);
+  padding-bottom: 50px;
+}
+
+#statistics {
+  background-color: #040647;
+  padding: 50px;
+  padding-top: 20px;
+  color: white;
+}
+
+#statistics div h1 {
+  color: #ff7200;
+}
+
+.accordion-button:focus {
+  color: #ff7200;
+  box-shadow: 0px 0px 20px rgba(255, 114, 0, 0.5);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #ff7200;
+  box-shadow: 0px 0px 10px rgba(255, 114, 0, 0.5);
+}
+
+tr,
+td {
+  border: none !important;
+}
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}

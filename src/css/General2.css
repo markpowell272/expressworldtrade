@@ -1,0 +1,341 @@
+.general-container2 .body {
+  padding: 100px 8% 50px;
+  text-align: justify;
+}
+
+.general-container2 br {
+  display: block;
+}
+
+.general-container2 .body .content {
+  background-color: hsl(0, 3%, 92%);
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.general-container2 .body .content .account-stats {
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+.general-container2 .body .content .account-stats h3 {
+  background-color: var(--primary);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 20px;
+}
+
+.general-container2 .body .content .account-stats .card-show {
+  display: flex;
+  padding: 10px 20px 20px;
+}
+
+.general-container2 .body .content .account-stats .card-show .card {
+  display: flex;
+  width: 300px;
+  border: 1px solid var(--primary);
+}
+.general-container2
+  .body
+  .content
+  .account-stats
+  .card-show
+  .card:not(:first-of-type) {
+  margin-left: 20px;
+}
+
+.general-container2 .body .content .account-stats .card-show .card .card-head {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary);
+}
+
+.general-container2 .body .content .account-stats .card-show .card .card-tail {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.general-container2
+  .body
+  .content
+  .account-stats
+  .card-show
+  .card
+  .card-head
+  .icon {
+  font-size: 70px;
+}
+
+.general-container2 .body .content .account-stats .ref-user {
+  display: block;
+  padding: 10px 20px 20px;
+}
+
+.general-container2 .body .content .account-stats .ref-user .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.general-container2 .body .content .account-stats .ref-user .spans small {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.general-container2
+  .body
+  .content
+  .account-stats
+  .ref-user
+  .spans
+  small:first-of-type {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.general-container2 .body .content .account-stats .ref-user .form input,
+.general-container2 .body .content .account-stats .ref-user .form select {
+  outline: none;
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.general-container2 .body .content .account-stats .ref-user .form input:focus,
+.general-container2 .body .content .account-stats .ref-user .form select:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0px 0px 10px rgba(20, 132, 177, 0.3);
+}
+
+.general-container2 .body .content .account-stats .card-show form {
+  width: 100%;
+}
+
+.general-container2 .body .content .account-stats .card-show form input {
+  width: 70%;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.general-container2 .body .content .account-stats .card-show form input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0px 0px 10px rgba(20, 132, 177, 0.3);
+}
+.general-container2 .body .content .account-stats .card-show form button {
+  width: 30%;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  transition: 0.5s ease-in-out;
+}
+
+.general-container2 .body .content .account-stats .card-show form button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.general-container2 .investment {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  text-align: center;
+}
+
+.general-container2 .withdraw {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  text-align: center;
+}
+
+.general-container2 .investment .plan-box {
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.general-container2 .investment .plan-box h3 {
+  background-color: var(--secondary);
+  color: white;
+  padding: 20px;
+}
+.general-container2 .investment .plan-box h6 {
+  padding: 10px;
+}
+
+.general-container2 .investment .plan-box p {
+  border-top: 1px solid var(--secondary);
+  padding: 10px;
+  margin: 0px;
+}
+
+.general-container2 .investment .plan-box .last {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.general-container2 .investment .plan-box .last a {
+  background-color: var(--secondary);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.support-span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--primary);
+}
+
+.support-span .button {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.scroll-x {
+  overflow-x: scroll;
+}
+
+table {
+  width: 100%;
+}
+
+table thead {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+table td {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 10px;
+}
+
+table thead td {
+  border: none;
+}
+
+.division {
+  text-align: center;
+  display: block;
+  border-top: 3px solid rgba(0, 0, 0, 0.3);
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .general-container2 .investment {
+    display: block;
+  }
+
+  .general-container2 .invest .plan-box {
+    margin-bottom: 20px;
+  }
+
+  .general-container2 .withdraw {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .general-container2 .withdraw .plan-box {
+    margin-bottom: 20px;
+  }
+
+  .general-container2 .body .content {
+    background-color: hsl(0, 3%, 92%);
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .general-container2 .body {
+    padding: 50px 4% 0px;
+  }
+  .scroll-x h3 {
+    width: 1020px;
+  }
+
+  .scroll-x .support-span {
+    width: 1020px;
+    display: block;
+  }
+
+  .scroll-x .form {
+    flex-direction: column;
+  }
+  .scroll-x .form div:first-of-type {
+    margin-bottom: 20px;
+  }
+  .scroll-x table {
+    width: 1000px;
+  }
+  .scroll-x .division {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .general-container2 .body .content .account-stats .card-show {
+    display: block;
+    padding: 10px 20px 20px;
+  }
+  .general-container2 .body .content .account-stats .card-show .card {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--primary);
+  }
+  .general-container2
+    .body
+    .content
+    .account-stats
+    .card-show
+    .card:not(:first-of-type) {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .general-container2 .body .content .account-stats .card-show form input {
+    width: 60%;
+  }
+  .general-container2 .body .content .account-stats .card-show form button {
+    width: 40%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .general-container2 .body .content .account-stats .card-show form input {
+    width: 40%;
+  }
+  .general-container2 .body .content .account-stats .card-show form button {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .general-container2 .body .content .account-stats .card-show form input {
+    width: 30%;
+    padding: 5px;
+  }
+  .general-container2 .body .content .account-stats .card-show form button {
+    width: 70%;
+    padding: 5px;
+  }
+}
