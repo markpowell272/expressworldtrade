@@ -40,7 +40,7 @@ const Contact = () => {
                 Send a Mail: <br />
                 <span>
                   <CgMail className="icon" />
-                  Tradxpressinfo@gmail.com
+                  expressfinancetrade@gmail.com
                 </span>
               </p>
               <p>

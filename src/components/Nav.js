@@ -47,7 +47,7 @@ const Nav = () => {
         <div className="top-nav">
           <span className="d-flex align-items-center">
             <CgMail className="icon" />
-            <span className="ms-1">Tradxpressinfo@gmail.com</span>
+            <span className="ms-1">expressfinancetrade@gmail.com</span>
           </span>
           <span className="left">
             <MdCall className="icon" />

@@ -43,7 +43,7 @@ const Navbar = () => {
         <div>
           <span>
             <CgMail className="icon" />
-            mail@expressworldtrade.option.com
+            expressfinancetrade@gmail.com
           </span>
           <span className="left">
             <MdCall className="icon" />
