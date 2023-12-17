@@ -55,7 +55,8 @@ const Modalbankwithdraw = () => {
 
     setLoading(false);
     setWithdrawDetails({ ...withdrawDetails, amount: null });
-    navigate("/dashboard", { state: "reload" });
+    // navigate("/dashboard", { state: "reload" });
+    window.location.replace("/dashboard");
   };
 
   useEffect(() => {

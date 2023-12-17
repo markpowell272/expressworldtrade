@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="sub">
         <p>
-          Copyright &copy; {year}. All rights reserved, expressworldtrade.com
+          Copyright &copy; {year}. All rights reserved, expressfinancetrade.site
         </p>
       </div>
     </div>
