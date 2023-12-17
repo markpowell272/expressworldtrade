@@ -148,17 +148,7 @@ nav {
     padding: 0px 2%;
   }
 }
-/* @media screen and (max-width: 600px) {
-  #logo {
-    width: 150px;
-  }
-  .top-nav {
-    flex-direction: column;
-  }
-  .main-nav {
-    padding: 0px 2%;
-  }
-} */
+
 .dropdown {
   position: relative;
 }
@@ -246,14 +236,14 @@ nav {
 }
 
 .logoutMobile {
-  background-color: rgba(256, 256, 256, 0.1);
+  background-color: black;
   color: white;
   padding: 20px;
+  text-align: center;
 }
 
 .logoutMobile:hover {
   background-color: rgb(70, 68, 68);
-  color: white;
 }
 
 @media screen and (max-width: 500px) {

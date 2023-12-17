@@ -163,12 +163,12 @@ const MobileNav = ({ open, handleOpen }) => {
               <li onClick={() => handleOpen()}>
                 <Link to="/support">GET SUPPORT</Link>
               </li>
-              <li onClick={() => handleOpen()} className="logoutMobile">
-                <span onClick={logout} style={{ cursor: "pointer" }}>
-                  <span>LOGOUT</span>
-                </span>
-              </li>
             </ul>
+            <li onClick={() => handleOpen()} className="logoutMobile">
+              <span onClick={logout} style={{ cursor: "pointer" }}>
+                <span>LOGOUT</span>
+              </span>
+            </li>
           </div>
         )}
       </li>
