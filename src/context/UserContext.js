@@ -6,9 +6,7 @@ const UserComponent = ({ children }) => {
   const [UserState, setUserState] = React.useState({});
 
   useEffect(() => {
-    let user = sessionStorage.getItem("user");
-    user = JSON.parse(user);
-    // console.log(user);
+    let user = JSON.parse(sessionStorage.getItem("user"));
     if (user) return setUserState(user);
   }, []);
 
