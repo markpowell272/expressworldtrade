@@ -38,11 +38,17 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  let user = JSON.parse(sessionStorage.getItem("user"));
+
+  let token = user.token;
+
+  console.log(token);
+
   useEffect(() => {
     const fetchBalance = async () => {
       setLoading(true);
       try {
-        const user = await getUser(UserState.token);
+        const user = await getUser(token);
         console.log(user);
         setBalance(user.balance);
         setProfit(user.profit);
