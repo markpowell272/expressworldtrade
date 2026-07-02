@@ -6,6 +6,7 @@ import { UserContext } from "../context/UserContext";
 
 const MobileNav = ({ open, handleOpen }) => {
   const [UserState, setUserState] = React.useContext(UserContext);
+  // const [openButton, setOpenButton] = useState(true);
 
   const navigate = useNavigate();
   const Auth = () => {
